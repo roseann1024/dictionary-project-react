@@ -1,10 +1,10 @@
 import "./App.css";
+import Dictionary from "./Dictionary";
 
 export default function App() {
   return (
     <div className="App">
-      <p>Learn React</p>
-      <button className="btn btn-primary shadow">Hello</button>
+      <Dictionary />
     </div>
   );
 }

@@ -1,12 +1,17 @@
+:root {
+  --primary-font-color: white;
+  --secondary-font-color: black;
+  --other-font-color: blue;
+  --primary-background-color: white;
+}
+
 .App {
   max-width: 600px;
-  background: linear-gradient(
-    109.6deg,
-    rgb(177, 173, 219) 11.2%,
-    rgb(245, 226, 226) 91.1%
-  );
+  background: linear-gradient(-225deg, #2cd8d5 0%, #6b8dd6 48%, #8e37d7 100%);
   display: block;
   margin: 0 auto;
   margin-top: 30px;
   padding: 20px;
+  border-radius: 20px;
+  font-family: calibri;
 }

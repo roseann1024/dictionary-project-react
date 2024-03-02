@@ -1,0 +1,52 @@
+header {
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 20px;
+}
+
+.Dictionary .header-title {
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.Dictionary .image-reading {
+  margin: 10px;
+}
+
+.Dictionary input {
+  background: #a7eceb;
+  border: none;
+  border-radius: 10px;
+  line-height: 1.5;
+  margin: 25px;
+  padding: 10px;
+  width: 80%;
+  font-size: 14px;
+}
+
+.keyword-result {
+  background: white;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 10px;
+
+  color: rgb(65, 59, 59);
+}
+
+.Meaning {
+  background: white;
+  margin: 20px 0;
+  border-radius: 10px;
+  padding: 20px;
+  color: rgb(65, 59, 59);
+}
+
+footer a {
+  color: aqua;
+}
+
+footer {
+  font-size: 12px;
+  color: white;
+}

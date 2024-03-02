@@ -26,15 +26,48 @@ export default function Dictionary() {
 
   return (
     <div className="Dictionary">
-      <form onSubmit={search}>
-        <input
-          type="search"
-          placeholder="Enter any word"
-          onChange={handleKeyword}
-        />
-      </form>
-
+      <div className="header-title">What word do you want to look up?</div>
+      <header>
+        <div className="row">
+          <div className="col-2">
+            <img
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/117/226/original/dictionary.png?1709338603"
+              alt="dictionary-icon"
+              width="80"
+              className="image-reading"
+            />
+          </div>
+          <div className="col-10">
+            <form onSubmit={search}>
+              <input
+                type="search"
+                placeholder="i.e : sunshine, sunset, wine, book....."
+                onChange={handleKeyword}
+                autoFocus="on"
+              />
+            </form>
+          </div>
+        </div>
+      </header>
       <Results results={results} />
+      <footer className="text-center">
+        This website was created by{" "}
+        <a
+          href="https://github.com/roseann1024"
+          target="_blank "
+          rel="noreferrer"
+        >
+          Rose Ann Austria
+        </a>{" "}
+        and open-sourced in{" "}
+        <a
+          href="https://github.com/roseann1024/dictionary-project-react"
+          target="_blank "
+          rel="noreferrer"
+        >
+          Git-hub
+        </a>
+      </footer>
     </div>
   );
 }

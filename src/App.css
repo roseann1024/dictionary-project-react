@@ -1,10 +1,9 @@
 .App {
-  max-width: 1200px;
   background: linear-gradient(-225deg, #2cd8d5 0%, #6b8dd6 48%, #8e37d7 100%);
   display: block;
   margin: 0 auto;
-  margin-top: 30px;
+
   padding: 20px;
-  border-radius: 20px;
+
   font-family: calibri;
 }

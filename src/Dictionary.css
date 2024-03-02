@@ -34,6 +34,11 @@ header {
   color: rgb(65, 59, 59);
 }
 
+.phonetics-audio {
+  color: red;
+  border: 1px solid red;
+}
+
 .Meaning {
   background: white;
   margin: 20px 0;

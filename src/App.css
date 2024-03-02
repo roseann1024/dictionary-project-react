@@ -6,7 +6,7 @@
 }
 
 .App {
-  max-width: 600px;
+  max-width: 1200px;
   background: linear-gradient(-225deg, #2cd8d5 0%, #6b8dd6 48%, #8e37d7 100%);
   display: block;
   margin: 0 auto;

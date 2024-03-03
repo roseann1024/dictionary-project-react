@@ -1,0 +1,18 @@
+.Phonetics {
+  text-align: center;
+}
+
+.Phonetics .phonetics-text {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+audio {
+  width: 300px;
+}
+
+@media (max-width: 960px) {
+  audio {
+    width: 200px;
+  }
+}

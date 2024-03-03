@@ -1,9 +1,11 @@
 .App {
-  background: linear-gradient(-225deg, #2cd8d5 0%, #6b8dd6 48%, #8e37d7 100%);
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(248, 219, 219) 0%,
+    rgb(229, 248, 250) 90%
+  );
   display: block;
   margin: 0 auto;
-
   padding: 20px;
-
   font-family: calibri;
 }

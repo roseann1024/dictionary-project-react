@@ -35,22 +35,36 @@ export default function Dictionary(props) {
   if (loaded) {
     return (
       <div className="Dictionary">
-        <section>
-          <h2 className="header-title">What word do you want to look up?</h2>
-          <form onSubmit={handleSubmit}>
-            <input
-              type="search"
-              onChange={handleKeyword}
-              autoFocus="on"
-              defaultValue={props.defaultKeyword}
-            />
-            <div className="input-label mt-2 ms-5">
-              ie: sunset, sunrise, wine, book, beach . . . . .
-            </div>
-          </form>
-        </section>
+        <div className="container">
+          <h1>
+            <img
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/117/226/original/dictionary.png?1709338603"
+              alt="book-dictionary"
+              width="75"
+            />{" "}
+            ENGLISH DICTIONARY
+          </h1>
+          <section>
+            <h2 className="header-title">What word do you want to look up?</h2>
+            <form onSubmit={handleSubmit}>
+              <input
+                type="search"
+                onChange={handleKeyword}
+                autoFocus="on"
+                defaultValue={props.defaultKeyword}
+                className="input-search"
+                placeholder="Search any word..."
+              />
+              <input type="submit" value="🔍Search" className="input-submit" />
 
-        <Results results={results} />
+              <div className="input-label mt-2">
+                ie: sunset, sunrise, wine, book, beach.....
+              </div>
+            </form>
+          </section>
+
+          <Results results={results} />
+        </div>
       </div>
     );
   } else {

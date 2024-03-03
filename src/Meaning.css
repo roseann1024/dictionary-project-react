@@ -1,8 +1,7 @@
-h3 {
-  font-weight: bold;
-  font-size: 34px;
-}
-
 em {
   color: rgb(255, 23, 100);
+}
+
+.part-of-speech {
+  font-weight: 900;
 }

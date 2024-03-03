@@ -15,13 +15,11 @@ export default function Dictionary(props) {
   }
 
   function showImageResponse(response) {
-    console.log(response.data.photos);
     setPhotos(response.data.photos);
   }
 
   function search() {
     let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en/${keyword}`;
-
     axios.get(apiUrl).then(showKeyword);
 
     let imageApiKey = "f78a0dbafabf13190c441b8cod34ftff";
@@ -52,6 +50,7 @@ export default function Dictionary(props) {
               src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/117/416/original/logo.png?1709489366"
               alt="book-dictionary"
               width="400"
+              className="img-fluid"
             />{" "}
           </h1>
           <section>

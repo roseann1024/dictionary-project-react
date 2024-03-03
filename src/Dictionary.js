@@ -49,11 +49,10 @@ export default function Dictionary(props) {
         <div className="container">
           <h1>
             <img
-              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/117/226/original/dictionary.png?1709338603"
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/117/416/original/logo.png?1709489366"
               alt="book-dictionary"
-              width="75"
+              width="400"
             />{" "}
-            ENGLISH DICTIONARY
           </h1>
           <section>
             <h2 className="header-title">What word do you want to look up?</h2>
